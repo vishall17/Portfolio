@@ -1,9 +1,9 @@
 // Enhanced JavaScript with new functionality
 
 // Check if the device is a desktop
-function isDesktop() {
-    return window.matchMedia("(min-width: 768px)").matches;
-}
+// function isDesktop() {
+//     return window.matchMedia("(min-width: 768px)").matches;
+// }
 
 // Redirect to a desktop-only message if not on a desktop
 // function redirectIfNotDesktop() {
