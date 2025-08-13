@@ -6,11 +6,11 @@ function isDesktop() {
 }
 
 // Redirect to a desktop-only message if not on a desktop
-function redirectIfNotDesktop() {
-    if (!isDesktop()) {
-        window.location.href = "desktop-only.html";
-    }
-}
+// function redirectIfNotDesktop() {
+//     if (!isDesktop()) {
+//         window.location.href = "desktop-only.html";
+//     }
+// }
 
 // Initialize Locomotive Scroll
 const locoScroll = new LocomotiveScroll({
